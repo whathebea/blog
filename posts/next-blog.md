@@ -3,7 +3,7 @@ title: "Blog"
 subtitle: "Como criar um blog utilizando NextJS sem saber o que você está fazendo"
 date: "2024-13-01"
 author: "Beatriz Gracia"
-tags: ["markdown", "nextjs", "frontend"]
+tags: ["nextjs", "frontend"]
 ---
 
 Eu sou uma pessoa que valoriza muito a arte de falar sobre algo sem entender absolutamente nada sobre o que você está falando. Sério mesmo! Eu acho uma habilidade fantástica e eu queria ser mais assim na minha vida, sabe? Eu acho que para fazer algo assim é necessário um nível relativamente alto de autoestima algo que eu não necessariamente tenho (apesar de estar me contradizendo em algum nível).
