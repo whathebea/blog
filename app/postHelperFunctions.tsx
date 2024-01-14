@@ -2,7 +2,7 @@ import fs from 'fs';
 import { PostMetadata } from './components/PostMetadata';
 
 export function getMarkdownFiles(): string[] {
-    const folder = "./posts";
+    const folder = process.cwd() + "/posts";
     // read all the files
     const files = fs.readdirSync(folder);
     // filter for the markdown files
@@ -20,7 +20,7 @@ export function getSlug(): string[] {
 
 export function getPostBody(slug: string): string {
     // get file by slug name
-    const file = `./posts/${slug}.md`;
+    const file = process.cwd() + `/posts/${slug}.md`;
     // read the file 
     const content = fs.readFileSync(file, "utf-8");
     return content;
