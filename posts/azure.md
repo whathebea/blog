@@ -1,7 +1,7 @@
 ---
 title: "Estudos para AZ-204"
 subtitle: "Devaneios de alguém que gosta de escrever"
-date: "2024-14-01"
+date: "2024-01-14"
 author: "Beatriz Gracia"
 tags: ["pessoal", "azure"]
 ---

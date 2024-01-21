@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 subtitle: "Como criar um blog utilizando NextJS sem saber o que você está fazendo"
-date: "2024-13-01"
+date: "2024-01-13"
 author: "Beatriz Gracia"
 tags: ["nextjs", "frontend"]
 ---

@@ -1,10 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 
 .pixel-font {
-  font-family: 'Pixelify Sans', sans-serif;
   font-family: 'Pixelify Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;

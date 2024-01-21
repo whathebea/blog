@@ -13,7 +13,7 @@ export default function Card(slug: string) {
     const timeToRead = getTimeToRead(slug);
     return (
       <div>
-        <article className=" border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] p-4 bg-white min-h-52">
+        <article className=" flex justify-between flex-col border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] p-4 bg-white min-h-56">
           <h3 className="text-sm font-bold flex justify-between">{postMetadata.date} <span className="text-gray-500">{timeToRead}</span></h3>
           <Link key={slug} href={`/posts/${slug}`}>
             <h1 className="font-bold text-xl pixel-font">{postMetadata.title}</h1>
